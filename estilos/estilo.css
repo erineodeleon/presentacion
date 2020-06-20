@@ -19,7 +19,6 @@ h1 {
     letter-spacing: -.2px;
     color: white;
     margin: 0px;
-    margin: ;
 }
 
 h1 strong {
@@ -34,6 +33,8 @@ h1 strong {
     background-repeat: no-repeat;
     background-position-x: right;
     margin: 0px;
+    display: flex;
+    align-items: center;
 }
 
 .seccion2 {
@@ -63,9 +64,9 @@ h1 strong {
     display: flex;
 }
 
-.en {
-    text-align: right;
+nav .nac_options {
     display: flex;
+    justify-content: space-between;
 }
 
 .header a {
@@ -77,15 +78,23 @@ h1 strong {
     padding: 0 20px;
 }
 
-.header ol {
-    display: flex;
-    height: inherit;
-}
-
-.header ol li {
-    height: inherit;
-}
-
 .header img {
     width: 80px;
+}
+
+
+/* pie de pagina */
+
+footer {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+    font-family: Arial;
 }
