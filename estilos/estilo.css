@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 h1,
@@ -17,6 +18,8 @@ h1 {
     line-height: 100%;
     letter-spacing: -.2px;
     color: white;
+    margin: 0px;
+    margin: ;
 }
 
 h1 strong {
@@ -30,6 +33,21 @@ h1 strong {
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    margin: 0px;
+}
+
+.seccion2 {
+    background-color: #fafafa;
+}
+
+.pro {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
 }
 
 .pro-details {
@@ -42,12 +60,30 @@ h1 strong {
 
 .header {
     background-color: #1b2127;
-    color: white;
+    display: flex;
+}
+
+.en {
+    text-align: right;
+    display: flex;
 }
 
 .header a {
     color: white;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 20px;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
 }
 
 .header img {
