@@ -6,26 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MI PRESENTACION</title>
     <link rel="icon" href="#">
+    <link rel="stylesheet" href="estilos/estilo.css">
 </head>
 
 <body>
     <!--cabezera de la pagina-->
-    <header>
+    <header class="header">
         <div>
-            <figure>
+            <figure class="logo">
                 <img src="imagenes/fondo-blanco.jpg" alt="logo">
             </figure>
             <!--menu de navegacion-->
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
-                        <a href="#">sobre mi</a>
+                        <a class="link" href="#de mi">sobre mi</a>
                     </li>
                     <li>
-                        <a href="#">experincia</a>
+                        <a class="link" href="#ex">experincia</a>
                     </li>
                     <li>
-                        <a href="#">trabajemos juntos</a>
+                        <a class="link" href="#tb">trabajemos juntos</a>
                     </li>
                 </ol>
             </nav>
@@ -35,29 +36,31 @@
 
     <!-- final de cabezera de la pagina-->
     <!--seciones-->
-    <section>
+    <section class="seccion1">
         <!--seccion 1 informacion personal-->
         <h1>hola me presento soy <strong>Erineo de leon</strong> electricista y futuro ingerinero especialista en el aria de frontend</h1>
         <img src="imagenes/fondo-blanco.jpg" width="500px" height="300px" alt="img">
     </section>
-    <section>
+    <section id="de mi" class="seccion2">
         <!--seccion 2-->
-        <h2>por tafolio</h2>
-        <article>
+        <h2>sobre mi</h2>
+        <article class="pro">
             <h3>platzi</h3>
             <h6>info</h6>
             <p> <small>fecha</small></p>
             <p><small>erinoe</small></p>
             <p><small>info proyecto</small></p>
-            <img src="imagenes/fondo-blanco.jpg" width="500px" height="300px" alt="img">
+            <figure class="pro_IMG_cont">
+                <img src="imagenes/fondo-blanco.jpg" width="500px" height="300px" alt="img">
+            </figure>
         </article>
         <!--fin de seccion 2-->
     </section>
-    <section>
+    <section id="ex" class="seccion3">
         <!--seccion 3-->
-        <h2>mas sobre mi</h2>
-        <article>
-            <figure>
+        <h2>Experiencia</h2>
+        <article class="ex-arti">
+            <figure class="ex-img">
                 <img src="imagenes/fondo-blanco.jpg" width="500px" height="300px" alt="">
             </figure>
             <h3>descripcion del suseco</h3>
@@ -66,13 +69,12 @@
         </article>
         <!-- fin de seccion 3-->
     </section>
-    <section>
+    <section id="tb" class="seccion4">
         <!--seccion 4-->
-        <form action="#">
+        <form action="#" class="email">
             <h3>¿creamos algo juntos?</h3>
             <input type="text" placeholder="Ingresa tu Email" name="email" id="email">
             <button>Enviar</button>
-
         </form>
         <!-- fin de seccion 4-->
     </section>
