@@ -28,8 +28,8 @@ h1 strong {
 .seccion1 {
     height: 300px;
     background-color: #1b2127;
-    background-image: url('../imagenes/verde.jpg');
-    background-size: 500px 300px;
+    background-image: url('../imagenes/el\ yo\ .jpg');
+    background-size: 300px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
     margin: 0px;
@@ -39,6 +39,16 @@ h1 strong {
 
 .seccion2 {
     background-color: #fafafa;
+    padding: 20px;
+}
+
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 30px;
 }
 
 .pro {
@@ -46,13 +56,30 @@ h1 strong {
     border-radius: 10px;
     margin: 10px;
     margin-bottom: 15px;
-    padding: 20px;
     background-color: white;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .pro-details {
     width: 500px;
+    font-size: 30px;
+    margin-top: 0;
+    margin: 10px;
+}
+
+.pro-details h6 {
+    margin: 10px 0;
+}
+
+.pro-details p {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.pro-details strong {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .pro_IMG_cont {
@@ -61,7 +88,10 @@ h1 strong {
 
 .header {
     background-color: #1b2127;
+    color: width;
     display: flex;
+    height: 90px;
+    jus
 }
 
 nav .nac_options {
