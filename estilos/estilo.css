@@ -48,6 +48,51 @@ h1 strong {
     padding: 20px;
 }
 
+.title3 {
+    margin-left: 20px;
+    text-decoration: dotted;
+}
+
+.seccion3 {
+    display: flex;
+}
+
+.ex-arti {
+    border: 1px solid rgb(8, 8, 8);
+    margin: 4px;
+    width: 400px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    overflow: hidden;
+    background-color: rgb(226, 224, 224);
+}
+
+.detail {
+    margin: 20px;
+    background-color: #5a9cc2;
+    margin-top: -40px;
+    position: relative;
+    text-align: center;
+}
+
+.ex-arti a {
+    background-color: white;
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #026fff;
+}
+
+.ex-img-detail {
+    margin: 20px;
+}
+
+.ex-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
 h2 {
     color: #026fff;
     text-transform: uppercase;
