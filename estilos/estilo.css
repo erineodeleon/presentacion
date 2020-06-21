@@ -13,6 +13,12 @@ h6 {
     font-weight: normal;
 }
 
+h6 {
+    font-size: 25px;
+    color: green;
+    text-transform: uppercase;
+}
+
 h1 {
     font-size: 35px;
     line-height: 100%;
