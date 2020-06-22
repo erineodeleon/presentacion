@@ -191,19 +191,19 @@ nav .nac_options {
 }
 
 .contacto .facebook {
-    background-image: url('../imagenes/Facebook.jpg');
+    background-image: url('../imagenes/facebook.svg');
 }
 
 .contacto .github {
-    background-image: url('../imagenes/images.jpg');
+    background-image: url('../imagenes/github.svg');
 }
 
 .contacto .instagram {
-    background-image: url('../imagenes/instagram.jpg');
+    background-image: url('../imagenes/instagram.svg');
 }
 
 .contacto .twitter {
-    background-image: url('../imagenes/twi.jpg');
+    background-image: url('../imagenes/twitter.svg');
 }
 
 .email input {
